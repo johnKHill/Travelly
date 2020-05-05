@@ -97,7 +97,7 @@ nav ul {
 /* HERO section */
 .hero {
   min-height: 90vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), transparent),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
     url(./img/landing-page.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -243,6 +243,7 @@ nav ul {
 .card h4,
 .card p {
   padding: 1rem;
+  line-height: 2.2rem;
 }
 
 /* CONTACT section */
@@ -320,6 +321,11 @@ footer ul {
   flex: 1 1 40rem;
   justify-content: space-between;
   align-items: center;
+}
+
+button:focus {
+  background: #2f445e;
+  outline-style: solid;
 }
 
 /* MEDIA QUERY */
